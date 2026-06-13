@@ -218,6 +218,19 @@ blockquote {
   margin: 1.5rem 0;
 }
 
+.review-questions {
+  display: block;
+  margin: 1.5rem 0;
+}
+
+.review-question-group {
+  margin-bottom: 1.5rem;
+}
+
+.review-question-group:last-child {
+  margin-bottom: 0;
+}
+
 .card {
   background: var(--panel);
   border: 1px solid var(--line);
