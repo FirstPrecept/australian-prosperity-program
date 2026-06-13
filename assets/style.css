@@ -253,6 +253,11 @@ th {
   font-weight: 700;
 }
 
+.net-row td {
+  border-top: 2px solid var(--text);
+  font-weight: 700;
+}
+
 .site-footer {
   border-top: 1px solid var(--line);
   background: #ebe5dc;
