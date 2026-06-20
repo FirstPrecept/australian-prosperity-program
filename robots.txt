@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://firstprecept.github.io/australian-prosperity-program/sitemap.xml
