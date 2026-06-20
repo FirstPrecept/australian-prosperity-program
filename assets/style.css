@@ -239,6 +239,33 @@ blockquote {
   padding: .4rem .65rem;
 }
 
+.reform-visual {
+  margin: 2rem 0;
+  max-width: calc(100vw - 2.5rem);
+  overflow: hidden;
+  width: 1060px;
+}
+
+.reform-visual-scroll {
+  max-width: 100%;
+  overflow-x: auto;
+  width: 100%;
+}
+
+.reform-visual img {
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.reform-visual figcaption {
+  color: var(--muted);
+  font-size: .95rem;
+  margin-top: .75rem;
+}
+
 .review-questions {
   display: block;
   margin: 1.5rem 0;
@@ -324,5 +351,9 @@ th {
 
   .hero {
     padding-top: 3rem;
+  }
+
+  .reform-visual img {
+    min-width: 720px;
   }
 }
